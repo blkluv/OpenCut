@@ -13,7 +13,8 @@
     "build": "turbo run build",
     "check-types": "turbo run check-types",
     "lint": "turbo run lint",
-    "format": "turbo run format"
+    "format": "turbo run format",
+    "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "next": "^15.3.4",
